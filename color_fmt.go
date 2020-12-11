@@ -27,7 +27,3 @@ func Color(colorString string) func(...interface{}) string {
   }
   return sprint
 }
-
-func main() {
-  fmt.Println(Info("hello, world!"))
-}
